@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    max-height: 100vh;
+    max-width: 100vw;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 1000px){
+    body{
+        overflow: auto;
+    }
+}
